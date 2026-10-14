@@ -10,4 +10,9 @@ int main()
 	cout << "  *\n";
 	cout << " * *\n"; 
 	cout << "*   *";
+
+	int a, b, c;
+	cin >> a >> b;
+		c = a * b;
+		cout << c;
 }
