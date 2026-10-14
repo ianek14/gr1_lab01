@@ -4,4 +4,7 @@ int main()
 {
 	cout << "J\n";
 	cout << "Ch";
+	cout << "*
+		    ***
+		     *";
 }
