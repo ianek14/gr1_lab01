@@ -11,8 +11,11 @@ int main()
 	cout << " * *\n"; 
 	cout << "*   *";
 
-	int a, b, c;
+	int a, b, c1, c2;
 	cin >> a >> b;
-	c = a * b;
-	cout << c;
+	c1 = a * b;
+	c2 = a + b;
+	cout << "c1\n"
+	cout << c2;
+
 }
