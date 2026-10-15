@@ -43,6 +43,7 @@ int main()
 
 
 	int a, b, c1, c2;
+	cout << "Podaj dwie liczby całkowite: " << endl;
 	cin >> a >> b;
 	c1 = a * b;																//zadanie 4
 	c2 = a + b;
@@ -52,10 +53,18 @@ int main()
 	cout << "\n\n\n";
 
 	double f;
+	cout << "Podaj temperaturę w stopniach Fahrenheita: " << endl;
 	cin >> f;
 	double c;                                                               //zadanie 5
 	c = 5.0 * (f - 32.0) / 9.0;
 	cout << f << " stopni Fahrenheita to " << c << " stopni Celsjusza";
+	cout << "\n\n\n";
+
+	string imie, nazwisko;
+	int wiek;
+	cout << "Podaj swoje imię, nazwisko i wiek: " << endl;
+	cin >> imie >> nazwisko >> wiek;																		//zadanie 6
+	cout<< "Mam na imię " << imie << " " << nazwisko << " i mam " << wiek << " lat. " << endl;
 
 
 }
