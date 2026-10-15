@@ -29,6 +29,19 @@ int main()
 	cout << " * *\n"; 
 	cout << "*   *\n\n\n\n";
 
+	cout <<"\t   Lista obecności" << endl;
+	cout <<" |----------------------------------|" << endl;
+	cout <<" |nr |   Imię     |     Nazwisko    |" << endl;
+	cout <<" |----------------------------------|" << endl;
+	cout <<" |1  |  Boksdel   |      Baron      |" << endl;
+	cout <<" |----------------------------------|" << endl;													//zadanie 3    
+	cout <<" |2  |  Michał    |      Rychlik    |" << endl;
+	cout <<" |----------------------------------|" << endl;
+	cout <<" |3  |   Kacper   |      Kezel	    |" << endl;		
+	cout <<" |----------------------------------|\n\n\n" << endl;													      
+
+
+
 	int a, b, c1, c2;
 	cin >> a >> b;
 	c1 = a * b;																//zadanie 4
