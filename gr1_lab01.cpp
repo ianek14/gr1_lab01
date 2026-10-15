@@ -66,5 +66,26 @@ int main()
 	cin >> imie >> nazwisko >> wiek;																		//zadanie 6
 	cout<< "Mam na imię " << imie << " " << nazwisko << " i mam " << wiek << " lat. " << endl;
 
+	int x, y, z1, z2, z3, z4;
+	cout << "Podaj dwie liczby całkowite: " << endl;
+	cin >> x >> y;
+	z1 = x + y;																								//zadanie 7
+	z2 = x * y;
+	z3 = x / y;
+	z4 = x%y; 
+	cout << "Wynik dodawania: " << z1 << "\n Wynik mnozenia: " << z2 << "\n Wynik dzielenia: " << z3 << "\n Reszta z dzielenia x przez y wynosi: " << z4 << endl;
+
+	double o, p, l1, l2, l3;
+	cout << "Podaj dwie liczby: " << endl;
+	cin >> o >> p;
+	l1 = o + p;																							//zadanie 8
+	l2 = o * p;
+	l3 = o / p;
+	cout << "Wynik dodawania: " << l1 << "\n Wynik mnozenia: " << l2 << "\n Wynik dzielenia: " << l3 << endl;
+
+	
+
+
+
 
 }
