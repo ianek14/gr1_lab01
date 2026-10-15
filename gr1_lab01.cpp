@@ -49,5 +49,13 @@ int main()
 	cout << "\n Wyniki obliczeń: \n";
 	cout << "mnozenie: " << c1 << endl;
 	cout << "suma: " << c2 << endl;
+	cout << "\n\n\n";
+
+	double f;
+	cin >> f;
+	double c;                                                               //zadanie 5
+	c = 5.0 * (f - 32.0) / 9.0;
+	cout << f << " stopni Fahrenheita to " << c << " stopni Celsjusza";
+
 
 }
