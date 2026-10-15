@@ -2,7 +2,7 @@
 using namespace std;
 
 int main()
-{
+{/* 
 	cout << "         JJJJJJJJ\n"
 	<<"                J\n"
 	<<"                J\n"
@@ -81,10 +81,24 @@ int main()
 	l1 = o + p;																							//zadanie 8
 	l2 = o * p;
 	l3 = o / p;
-	cout << "Wynik dodawania: " << l1 << "\n Wynik mnozenia: " << l2 << "\n Wynik dzielenia: " << l3 << endl;
+	cout << "Wynik dodawania: " << l1 << "\n Wynik mnozenia: " << l2 << "\n Wynik dzielenia: " << l3 << endl; */
+
+	double r, L, P;
+	double π = 3.1415926535;
+	cout << "Podaj promień koła: " << endl;
+	cin >> r;                                                               							//zadanie 9
+	L = 2 * π * r;
+	P = π * r * r;
+	cout << "Obwod wynosi: " << L << "\n Pole wynosi: " << P << endl; 
+
+	double j, m, OBWUD, POLE;
+	cout << "Podaj boki prostokąta: " <<endl;
+	cin >> j >> m;
+	OBWUD = (2 * j) + (2 * m);																			//zadanie 10
+	POLE = j * m;
+	cout << "Obwod prostoka5ta wynosi: " << OBWUD << "\n Pole prostokata wynosi: " << POLE << endl; 
 
 	
-
 
 
 
