@@ -1,5 +1,7 @@
 #include <iostream>
+#include <iomanip>
 using namespace std;
+
 
 int main()
 {/* 
@@ -81,7 +83,7 @@ int main()
 	l1 = o + p;																							//zadanie 8
 	l2 = o * p;
 	l3 = o / p;
-	cout << "Wynik dodawania: " << l1 << "\n Wynik mnozenia: " << l2 << "\n Wynik dzielenia: " << l3 << endl; */
+	cout << "Wynik dodawania: " << l1 << "\n Wynik mnozenia: " << l2 << "\n Wynik dzielenia: " << l3 << endl; 
 
 	double r, L, P;
 	double π = 3.1415926535;
@@ -96,9 +98,62 @@ int main()
 	cin >> j >> m;
 	OBWUD = (2 * j) + (2 * m);																			//zadanie 10
 	POLE = j * m;
-	cout << "Obwod prostoka5ta wynosi: " << OBWUD << "\n Pole prostokata wynosi: " << POLE << endl; 
+	cout << "Obwod prostokata wynosi: " << OBWUD << "\n Pole prostokata wynosi: " << POLE << endl; 
+
+	double celsius, fahrenheit;
+	cout << "Wprowadź temperaturę (w stopniach Celsiusza)";
+	cin >> celsius;																						//zadanie 11
+	fahrenheit = (9 * celsius / 5) + 32;
+	cout << fixed << setprecision(2);
+
+	int sekundy, minutosekundy, reszta;
+	cout << "Wprowadz liczbe sekund";
+	cin >> sekundy;																						//Zadanie 12
+	minutosekundy = sekundy/60;
+	reszta = sekundy % 60;
+	cout << "W przeliczeniu twoja liczba sekund odpowiada: " << minutosekundy << "minutom i " << reszta <<" sekundom" << endl;
+	
+
+	int minuty, godziny, reszta2;
+	cout << "Wprowadz liczbe minut";
+	cin >> minuty;																												//Zadanie 13
+	godziny = minuty / 60;
+	reszta2 = minuty % 60;
+	cout << "W przeliczeniu twoja liczba minut odpowiada: " << godziny << " godzinom i " << reszta2 << " minutom" << endl;
+	*/
 
 	
+	double licz1, licz2, licz3, średnia;
+	cout << "Podaj trzy wybrane liczby ";
+	cout << fixed << setprecision (4);
+	cin >> licz1 >> licz2 >> licz3;																//zadanie 14
+	średnia = (licz1 + licz2 + licz3) / 3;
+	cout << "Średnia arytmetyczna twoich liczb wynosi: " << średnia << endl;
+	
+	
+	
+	
+	
+	double liczba1, liczba2, liczba3;
+	cout << fixed << setprecision(2);
+	cout << "Wpisz cenę i liczbę sztuk produktu:";
+	cin >> liczba1 >> liczba2;																					//zadanie 15
+	liczba3 = liczba1 * liczba2;
+	cout << "Twoja całkowita wartość zakupu wynosi: " << liczba3 << " zł" << endl;
+	
+	double lic1, lic2, lic3, lic4;
+	cout << "Podaj trzy liczby całkowite";																		//zadanie 16
+	cin  >> lic1 >> lic2 >> lic3;
+	lic4 = (lic1+lic2) / lic3;
+	cout << "Wynik twojego dzialania wynosi: " << lic4 << endl;	
+
+	
+	
+
+
+
+
+
 
 
 
