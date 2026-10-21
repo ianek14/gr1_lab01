@@ -27,11 +27,17 @@ while (fahr <= limit) {
    start2 = 0; //przypisz 0 do start 
    limit2 = 200; //przypisz 200 do limit 
    krok2 = 20; //przypisz 20 do krok 
-   for (fahr2 = 0.0; fahr2 <= limit2; fahr2 = fahr2 + krok2)  //kod 02_14 
+   for (fahr2 = 0.0; fahr2 <= limit2; fahr2 = fahr2 + krok2)  //kod 02_14         //zad3                  
    {
       float celsius2 = (5.0 / 9.0) * (fahr2 - 32.0);
       cout << fahr2 << "\t" << celsius2 << endl <<endl <<endl;
       //printf("%3.0f \t %6.1f \n", fahr, celsius);
    }
-
+   float celsius3;
+   float fahr3;
+   for(fahr3 = 0.0; fahr3 <= limit; fahr3 = fahr3 + krok) //kod 02_16
+{ 
+    float celsius3 = 5*(fahr3 - 32.0) /9; 
+    printf("%3.0f %6.1f \n", fahr3, celsius3); 
+}
 }
